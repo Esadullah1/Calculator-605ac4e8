@@ -15,22 +15,15 @@
     if ($line1 == "+") {
         $line = readline("eerste getal?");
         $line = readline("tweede getal?");
-        echo "Het antwoord = "; $line = readline($line + $line);
-      
-
+        echo "Het antwoord = "; 
+        $line = readline($line + $line);
     }
-
-    elseif ($line1 == "-"){
+     elseif ($line1 == "-"){
         $line = readline("eerste getal?");
-        $line = readline("tweede getal?");
-        echo "Het antwoord = "; $line = readline($line - $line);
+         $line = readline("tweede getal?");
+        echo "Het antwoord = "; 
+        $line = readline($line - $line);
     }
-
-    
-    
-    
-    
-    
     ?>
 
 
